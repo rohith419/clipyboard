@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ClipyBoard — Simple Chrome Clipboard",
+    "description": "Chrome clipboard for keeping text snippets",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icons/icons8-clipboard-100.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
