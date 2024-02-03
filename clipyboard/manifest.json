@@ -8,6 +8,7 @@
       "default_icon": "icons/icons8-clipboard-100.png"
     },
     "permissions": [
-      "storage"
+      "storage",
+      "contextMenus"
     ]
   }

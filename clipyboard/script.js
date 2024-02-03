@@ -10,6 +10,7 @@ document.getElementById("text__input").addEventListener("keypress", function (ev
     }
 })
 
+document.getElementById('text__input').focus()
 
 // Add text snippet to Clipyboard UI
 function addSnippetToClipyboard(id, text) {
@@ -88,7 +89,8 @@ function copyText(id) {
 
 // Delete text from clipyboard
 function deleteText(id) {
-    chrome.storage.local.remove([id]).then(() => {
+    console.log(id)
+    chrome.storage.local.remove([id.toString()]).then(() => {
         document.getElementById(id).remove()
     })
 }

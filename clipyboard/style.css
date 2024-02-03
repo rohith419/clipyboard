@@ -35,13 +35,11 @@ button {
 
 }
 
-hr {
-    border: .5px solid #434343;
-}
-
 
 body {
     background-color: #0A1435;
+    padding: 0px;
+    margin: 0px;
 }
 
 #logo__text {
@@ -90,14 +88,14 @@ body {
     font-weight: 400;
     font-size: 16px;
     margin: 0px;
-    color: #B4B4B4;
+    color: white;
     text-align: left;
 }
 
 .copy__text__button {
     width: 16px;
     height: 16px;
-    color: #474747;
+    color: #1F91D2;
     top: 50%;
     transform: translateY(-50%);
     right: 52px;
@@ -106,13 +104,13 @@ body {
 }
 
 .copy__text__button:hover {
-    color: #1F91D2;
+    color: blue;
 }
 
 .delete__text__button {
     width: 16px;
     height: 16px;
-    color: #474747;
+    color: #1F91D2;
     top: 50%;
     transform: translateY(-50%);
     right: 24px;
@@ -137,10 +135,14 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
 }
+
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: transparent;
@@ -149,7 +151,7 @@ html {
 .nav__icon {
     width: 24px;
     height: 24px;
-    color: rgb(186, 184, 184);
+    color: white;
     padding-left: 8px;
 }
 
@@ -161,6 +163,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #1e2848;
 }
