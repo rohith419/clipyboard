@@ -1,4 +1,4 @@
-# Clipyboard Chrome Extension
+# Clipboard Chrome Extension
 
 ![Clipyboard Screenshot](images/screenshot.png)
 
